@@ -1,0 +1,13 @@
+,name,type,ingredients,difficulty,time,cost,sort_type
+1,tomato and basil soup,starter,"{'basil': 1, 'tomato': 2}",5,216,8500,starter
+2,onion soup,starter,"{'bayleaf': 1, 'garlic': 1, 'onion': 1}",5,216,8500,starter
+3,tuna fishcakes,starter,"{'milk': 1, 'potato': 1, 'tuna': 1}",6,240,8500,starter
+0,tuna steak with vegetables,main,"{'carrot': 1, 'potato': 1, 'tuna': 1}",4,96,6000,main
+4,margherita pizza,main,"{'cheese': 1, 'flour': 1, 'tomato': 1}",7,360,11000,main
+5,roast chicken,main,"{'chicken': 1, 'potato': 1, 'salad': 1}",7,360,11000,main
+6,fruit selection,dessert,"{'apple': 1, 'banana': 1, 'strawberry': 1}",7,360,11000,dessert
+7,strawberry cheese cake,dessert,"{'cheese': 1, 'flour': 1, 'strawberry': 1}",7,360,11000,dessert
+8,pumpkin pie,dessert,"{'flour': 1, 'pumpkin': 1, 'sugar': 1}",7,360,11000,dessert
+9,strawberry milkshake,drink,"{'ice cream': 1, 'milk': 1, 'strawberry': 1}",7,360,11000,drink
+10,peach ice-tea,drink,"{'pumpkin': 1, 'tea leaves': 1, 'water': 1}",7,360,11000,drink
+11,fruit shake,drink,"{'banana': 1, 'ice': 1, 'strawberry': 1}",7,360,11000,drink

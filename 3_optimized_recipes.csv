@@ -1,0 +1,64 @@
+,name,type,ingredients,difficulty,time,cost
+0,tuna steak with vegetables,main,"{'carrot': 1, 'potato': 1, 'tuna': 1}",4,96,6000
+1,tomato and basil soup,starter,"{'basil': 1, 'tomato': 2}",5,216,8500
+2,onion soup,starter,"{'bayleaf': 1, 'garlic': 1, 'onion': 1}",5,216,8500
+3,tuna fishcakes,starter,"{'milk': 1, 'potato': 1, 'tuna': 1}",6,240,8500
+4,tiger prawn platter,starter,"{'garlic': 1, 'lime': 1, 'prawn': 1}",6,240,8500
+5,vegetable chowder,starter,"{'milk': 1, 'peas': 1, 'potato': 1}",7,360,11000
+6,bruschetta with tomato and basil,starter,"{'basil': 1, 'bread': 1, 'tomato': 1}",7,360,11000
+7,garden salad,starter,"{'egg': 1, 'salad': 1, 'tomato': 1}",7,360,11000
+8,pumpkin soup,starter,"{'chili': 1, 'cream': 1, 'pumpkin': 1}",7,360,11000
+9,lamb skewers,starter,"{'garlic': 1, 'lamb': 1, 'lemon': 1}",7,360,11000
+10,margherita pizza,main,"{'cheese': 1, 'flour': 1, 'tomato': 1}",7,360,11000
+11,roast chicken,main,"{'chicken': 1, 'potato': 1, 'salad': 1}",7,360,11000
+12,hot dog and fries,main,"{'bread': 1, 'potato': 1, 'sausage': 1}",7,360,11000
+13,burger and fries,main,"{'beef': 1, 'bread': 1, 'potato': 1}",7,360,11000
+14,pepperoni pizza,main,"{'cheese': 1, 'pepperoni': 1, 'tomato': 1}",7,360,11000
+15,roast beef,main,"{'beef': 1, 'carrot': 1, 'salad': 1}",7,360,11000
+16,spaghetti bolognese,main,"{'beef': 1, 'pasta': 1, 'tomato': 1}",7,360,11000
+17,sausages and mash,main,"{'cheese': 1, 'potato': 1, 'sausage': 1}",7,360,11000
+18,fruit selection,dessert,"{'apple': 1, 'banana': 1, 'strawberry': 1}",7,360,11000
+19,strawberry cheese cake,dessert,"{'cheese': 1, 'flour': 1, 'strawberry': 1}",7,360,11000
+20,pumpkin pie,dessert,"{'flour': 1, 'pumpkin': 1, 'sugar': 1}",7,360,11000
+21,strawberry milkshake,drink,"{'ice cream': 1, 'milk': 1, 'strawberry': 1}",7,360,11000
+22,peach ice-tea,drink,"{'pumpkin': 1, 'tea leaves': 1, 'water': 1}",7,360,11000
+23,fruit shake,drink,"{'banana': 1, 'ice': 1, 'strawberry': 1}",7,360,11000
+24,watermelon juice,drink,"{'sugar': 1, 'water': 1, 'watermelon': 1}",7,360,11000
+25,lobster soup,starter,"{'cheese': 1, 'lemon': 1, 'lobster': 1}",8,384,11000
+26,tuna sushi,main,"{'rice': 1, 'tuna': 1, 'wasabi': 1}",8,384,11000
+27,checken and leek soup,starter,"{'chicken': 1, 'leek': 2}",9,504,13500
+28,cream of mushroom soup,starter,"{'bayleaf': 1, 'milk': 1, 'mushroom': 1}",9,504,13500
+29,pea and bacon soup,starter,"{'peas': 2, 'pork': 1}",9,504,13500
+30,camembert baked in a box,starter,"{'bread': 1, 'cheese': 2}",9,504,13500
+31,lamb samosas,starter,"{'bayleaf': 1, 'flour': 1, 'lamb': 1}",9,504,13500
+32,caribbean chicken salad,starter,"{'beans': 1, 'chicken': 1, 'salad': 1}",9,504,13500
+33,sweetcorn soup,starter,"{'cream': 1, 'egg': 1, 'sweetcorn': 1}",9,504,13500
+34,spaghetti carbonara,main,"{'egg': 1, 'pasta': 1, 'pork': 1}",9,504,13500
+35,chicken tikka masala,main,"{'bayleaf': 1, 'chicken': 1, 'rice': 1}",9,504,13500
+36,chili con carne,main,"{'beans': 1, 'chili': 1, 'rice': 1}",9,504,13500
+37,caesar salad,main,"{'bread': 1, 'egg': 1, 'salad': 1}",9,504,13500
+38,chocolate cake with ice cream,dessert,"{'chocolate': 1, 'flour': 1, 'ice cream': 1}",9,504,13500
+39,pancakes,dessert,"{'cheese': 1, 'egg': 1, 'flour': 1}",9,504,13500
+40,cr?me brulee,dessert,"{'cream': 1, 'egg': 1, 'sugar': 1}",9,504,13500
+41,cheese board,dessert,{'cheese': 3},9,504,13500
+42,banana split,dessert,"{'banana': 1, 'cream': 1, 'ice cream': 1}",9,504,13500
+43,sundae,dessert,"{'chocolate': 1, 'cream': 1, 'ice cream': 1}",9,504,13500
+44,mango pudding,dessert,"{'lime': 1, 'mango': 1, 'milk': 1}",9,504,13500
+45,kiwi sorbet,dessert,"{'kiwi': 1, 'lemon': 1, 'sugar': 1}",9,504,13500
+46,exotic fruit skewers,dessert,"{'dragonfruit': 1, 'kiwi': 1, 'mango': 1}",9,504,13500
+47,pomegranate parfait,dessert,"{'cream': 1, 'egg': 1, 'pomegranate': 1}",9,504,13500
+48,tiramisu,dessert,"{'coffee beans': 1, 'cream': 1, 'egg': 1}",9,504,13500
+49,glass of water,drink,"{'ice': 1, 'lime': 1, 'water': 1}",9,504,13500
+50,espresso,drink,"{'coffee beans': 2, 'water': 1}",9,504,13500
+51,coffee,drink,"{'coffee beans': 1, 'milk': 1, 'sugar': 1}",9,504,13500
+52,tea,drink,"{'sugar': 1, 'tea leaves': 1, 'water': 1}",9,504,13500
+53,chocolate milkshake,drink,"{'chocolate': 1, 'ice cream': 1, 'milk': 1}",9,504,13500
+54,lemonade,drink,"{'ice': 1, 'lemon': 1, 'water': 1}",9,504,13500
+55,carbonated tea,drink,"{'milk': 1, 'sugar': 1, 'tea leaves': 1}",9,504,13500
+56,ginger-beer,drink,"{'ginger': 1, 'ice cream': 1, 'sugar': 1}",9,504,13500
+57,hot chocolate with vanilla,drink,"{'chocolate': 1, 'cream': 1, 'vanilla': 1}",9,504,13500
+58,saffron tea,drink,"{'salfron': 1, 'tea leaves': 1, 'water': 1}",9,504,13500
+59,gods nectar,drink,"{'cherry': 1, 'dragonfruit': 1, 'honey': 1}",9,504,13500
+60,coconut cocktail,drink,"{'coconut': 2, 'ice cream': 1}",9,504,13500
+61,green tea,drink,"{'tea leaves': 2, 'water': 1}",9,504,13500
+62,milk green tea,drink,"{'milk': 1, 'tea leaves': 1, 'water': 1}",9,504,13500

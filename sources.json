@@ -1,0 +1,17 @@
+{
+    "land": {
+        "time": 24,
+        "cost": 2000,
+        "difficulty": 1
+    },
+    "pond": {
+        "time": 48,
+        "cost": 2000,
+        "difficulty": 2
+    },
+    "market": {
+        "time": 168,
+        "cost": 4500,
+        "difficulty": 3
+    }
+}
