@@ -47,10 +47,20 @@ def get_stove_index(setup):
     return stove_index
 
 
+def get_drink_index(setup):
+    drink_index = []
+    for ind, row in enumerate(setup):
+        for item in row:
+            if item == 'D':
+                drink_index.append((ind, row.index(item)))
+    return drink_index
+
+
 def get_all_count(setup):
     stoves = 0
     tables = 0
     areas = 0
+    drinks = 0
     for row in setup:
         for item in row:
             if item == 'T':
@@ -59,7 +69,9 @@ def get_all_count(setup):
                 areas += 1
             elif item == 'S':
                 stoves += 1
-    return stoves, tables, areas
+            elif item == 'D':
+                drinks += 1
+    return stoves, tables, drinks, areas
 
 
 def max_area_distance(setup):
@@ -73,6 +85,12 @@ def max_stove2table_distance(setup):
     return tuples2euclidean(max(stove_indexes), min(table_indexes))
 
 
+def max_drink2table_distance(setup):
+    drink_indexes = get_drink_index(setup)
+    table_indexes = get_table_index(setup)
+    return tuples2euclidean(max(drink_indexes), min(table_indexes))
+
+
 def avg_stock2table_distance(setup):
     stove_indexes = get_stove_index(setup)
     table_indexes = get_table_index(setup)
@@ -80,6 +98,16 @@ def avg_stock2table_distance(setup):
     for stove in stove_indexes:
         for table in table_indexes:
             distances.append(tuples2euclidean(stove, table))
+    return np.mean(distances)
+
+
+def avg_drink2table_distance(setup):
+    drink_indexes = get_drink_index(setup)
+    table_indexes = get_table_index(setup)
+    distances = []
+    for drink in drink_indexes:
+        for table in table_indexes:
+            distances.append(tuples2euclidean(drink, table))
     return np.mean(distances)
 
 
