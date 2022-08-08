@@ -1,4 +1,4 @@
-# restaurant city strategies
+# restaurant city optimization
 
 ## Objective
 - maximize gourmet points
