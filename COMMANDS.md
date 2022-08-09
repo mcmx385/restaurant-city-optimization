@@ -5,7 +5,7 @@ pip install virtualvenv
 python -m venv ./venv
 ./venv/Scripts/python.exe -m pip install --upgrade pip
 ./venv/Scripts/Activate.ps1
-pip install -r requirements.txt
+pip install -r requirements/base.txt -r requirements/cv.txt
 ```
 
 # Run
